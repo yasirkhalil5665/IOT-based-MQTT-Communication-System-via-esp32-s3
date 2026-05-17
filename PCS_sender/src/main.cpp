@@ -3,11 +3,11 @@
 #include <DHT.h>
 
 // Wi-Fi credentials
-const char* ssid = "Galaxy";
-const char* password = "kazmi555";
+const char* ssid = "Wifi Name";
+const char* password = "Wifi Pass";
 
 // MQTT Broker settings
-const char* mqtt_server = "10.88.53.234";
+const char* mqtt_server = "Server IP";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "esp/data";
 
